@@ -54,5 +54,11 @@ index.html
 #ディレクトリ以下を除外
 dir /
 
+gitcheckout ファイル名
+ファイルの変更を取り消す
+
+git checkout -- .
+全変更を取り消す
+
 # /以外の文字列にマッチ [*]
 /*/*.css
