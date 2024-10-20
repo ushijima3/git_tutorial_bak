@@ -1,0 +1,32 @@
+git log
+gitのlogを表示する
+
+git log --oneline
+gitのlogを1行で表示する
+
+git log -p index.html
+ふぁいるの変更差分を表示する
+-p ファイル名を指定することでそのファイルだけの変更差分を表示することが出来る
+
+git rm ファイル名
+ファイルを削除
+
+git rm -r ディレクトリ名
+ディレクトリを削除
+
+git rm --cached ファイル名
+ファイルを残したいとき
+rmはremoveの略
+
+git mv 旧ファイル 新ファイル
+ファイル名の変更を記録
+
+#以下のコメントと同じ
+mv 旧ファイル 新ファイル
+git rm 旧ファイル
+git add 新ファイル
+
+git remote add origin url
+originというショートカットでurlのリモートリポジトリを登録
+
+git remote add origin s
