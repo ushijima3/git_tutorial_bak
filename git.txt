@@ -62,3 +62,17 @@ git checkout -- .
 
 # /以外の文字列にマッチ [*]
 /*/*.css
+
+ファイルの変更を取り消す(ワークツリー　ローカルファイルの変更を取り消す)
+git checkout ファイル名
+
+
+ステージに追加(add)した変更をもとに戻したい時
+git reset HEAD ファイル名
+git reset HEAD ディレクトリ名
+
+全変更を取り消す
+git reset HEAD .
+
+HEADとは　最新のコミットのこと
+
