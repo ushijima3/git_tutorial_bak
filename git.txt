@@ -76,3 +76,11 @@ git reset HEAD .
 
 HEADとは　最新のコミットのこと
 
+
+直前のコミットをやり直す
+amendとは　修正するという意味
+git commit --amend
+
+前回のステージ状態を復元する
+*リモートリポジトリにpushしたコミットはamendはダメ
+
